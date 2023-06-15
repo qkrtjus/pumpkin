@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simple Theme</title>
+<link href="css/3.css" rel="stylesheet" type="text/css">
+<script>
+	window.addEventListener('scroll', function() {
+  var element = document.querySelector('.box0');
+  var position = element.getBoundingClientRect();
+
+  // 화면에 보이는 영역에 있는 경우
+  if (position.top < window.innerHeight) {
+    element.classList.add('visible');
+  }
+});
+	window.addEventListener('scroll', function() {
+  var element = document.querySelector('.final');
+  var position = element.getBoundingClientRect();
+
+  // 화면에 보이는 영역에 있는 경우
+  if (position.top < window.innerHeight) {
+    element.classList.add('visible');
+  }
+});
+	</script>
+</head>
+<body>
+<div class="container">
+  <header>
+        <nav class="secondary_header" id="menu">
+      <ul>
+		  
+		  <div class="tool0"> <a href="index.html"><img src="pnges/lo.png" alt="" class="img" id="fade"/></a></div>
+        <div class="tool" id="fade"><a href="important.html">IMPORTAT</a></div>
+        <div class="tool2" id="fade"><a href="cook.2.html">COOK</a></div>
+        <div class="tool3" id="fade"><a href="storage.html">STORAGE</a></div>
+      </ul>
+    </nav>
+  </header>
+	
+  <section class="main">
+	  <div class="back"><a href="cook.2.html" id="fade">X</a></div>
+	  <div class="box" >
+	  <div class="box1" > <p> </p></div>
+	  <div class="box2"><div class="center"><img src="pnges/말랭1.png" alt="" class="cook" id="fade"/></div></div>
+	  <div class="box3">
+		  <div class="text1" id="fade"><h1>1</h1>
+		  <p>호박을 길고 두툼하게 썰고 난 후 간단하게 쪄준다. </p>
+		  </div>
+		  </div>
+	  </div>
+	  
+	  <div class="box">
+	  <div class="box1"> <div class="text1" id="fade"><h1>2</h1>
+		  <p>쟁반에 설탕을 깔고, 호박을 하나씩 앞뒤로 묻혀준다.</p>
+		 </div></div>
+	  <div class="box2"><div class="center"><img src="pnges/말랭2.png" alt="" class="cook" id="fade"/></div></div>
+	  <div class="box3">
+		   <p> </p>
+		  </div>
+	  </div>
+	   <div class="box4">
+	  <div class="box1"> <p> </p></div>
+	  <div class="box2"><div class="center"><img src="pnges/말랭3.png" alt="" class="cook" id="fade" /></div></div>
+	  <div class="box3">
+		  <div class="text1"><h1>3</h1>
+		  <p>식품건조기에 하나씩 올려준 뒤 70도에서 5시간 정도 건조해주면 완성. </p>
+		  </div>
+		  </div>
+	  </div>
+	  
+	  <div class="wan">
+		  <div class="final">
+			  <a href="cook.2.html"><img src="pnges/말랭이1.png" alt="" class="final2"/></a>
+		  </div>
+	  </div>
+	</section>
+	</div>
+	
+</body>
+</html>
