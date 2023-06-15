@@ -1,0 +1,454 @@
+@charset "UTF-8";
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#fade{
+	animation: fade-in 2s ease-in-out;
+}
+.container {
+	background-color: #FFEFD4;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	float: left;
+}
+
+.secondary_header {
+	width: 4%;
+	height: 100%;
+	background-color: #FFEFD4;
+	float: left;
+	position: fixed;
+	padding-right: 3%;
+	
+}
+
+.container .secondary_header ul { 
+	
+}
+
+.img{
+	width: 55px;
+	height: 55px;
+	
+}
+.tool0 {
+	margin-top: 100%;
+	margin-bottom: 100%;
+	float: left;
+	width: 100%;
+}
+.tool {
+	
+}
+.tool2 {
+
+}
+.tool3 {
+	
+}
+.tool0 a  {
+	float: center;
+	width: 100%;
+}
+
+.secondary_header .tool0 a {
+	writing-mode: vertical-rl; 
+	float: center;
+	width: 100%;
+	margin-left:100%;
+}
+
+.secondary_header .tool a {
+	text-decoration: none;
+	margin-right: auto;
+	font-family: "Archivo Black";
+	font-weight: bold;
+	font-size: 14px;
+	color: #CD8A39;
+	letter-spacing: 1px;
+	text-align: center; 
+	writing-mode: vertical-rl; 
+	float: center;
+	margin-top: 630%;
+	width: 100%;
+	height:20%;
+}
+.secondary_header .tool2 a {
+	text-decoration: none;
+	margin-right: auto;
+	font-family: "Archivo Black";
+	font-weight: bold;
+	font-size: 14px;
+	color: #CD8A39;
+	letter-spacing: 1px;
+	text-align: center; 
+	writing-mode: vertical-rl; 
+	float: center;
+	width: 100%;
+	height:20%;
+}
+.secondary_header .tool3 a {
+	text-decoration: none;
+	margin-right: auto;
+	font-family: "Archivo Black";
+	font-weight: bold;
+	font-size: 14px;
+	color: #CD8A39;
+	letter-spacing: 1px;
+	text-align: center; 
+	writing-mode: vertical-rl; 
+	float: center;
+	width: 100%;
+	height:20%;
+}
+
+
+.secondary_header .tool a:hover {
+	color: #A24502;
+	cursor: pointer;
+	
+}
+.secondary_header .tool2 a:hover {
+	color: #A24502;
+	cursor: pointer;
+	
+}
+.secondary_header .tool3 a:hover {
+	color: #A24502;
+	cursor: pointer;
+	
+}
+
+.tool:hover {
+	color: #A24502;
+	cursor: pointer;
+}
+
+.section{
+	width: 95%;
+	background-color: #FFEFD4;
+	float: right;
+}
+
+.box{
+	float: right;
+	padding-top: 4%;
+	width: 100%;
+	background-color: #FFEFD4;
+}
+.box4{
+	float: right;
+	padding-top: 6%;
+	background-color: #FFEFD4;
+}
+.box0{
+	float: right;
+	width: 93%;
+	background-color: #FFEFD4;
+    opacity: 0; 
+    transition: opacity 4s ease;
+}
+.box0.visible {
+  opacity: 1; 
+}
+
+.text1{
+	float: center;
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.box1{
+	width: 33.3%;
+	float: left;
+	font-family: '나눔스퀘어 네오 OTF ExtraBold';
+	text-align: right;
+}
+.box .box1 h1{
+	color: #A24502;
+}
+
+.box .box1 p{
+	color: #595D2B;
+	font-size: 12px;
+}
+.box0 .box1 h1{
+	color: #A24502;
+}
+
+.box0 .box1 p{
+	color: #595D2B;
+	font-size: 12px;
+}
+.box4 .box1 h1{
+	color: #A24502;
+}
+
+.box4 .box1 p{
+	color: #595D2B;
+	font-size: 12px;
+}
+.box2{
+	width: 33.3%;
+	float: left;
+	font-family: '나눔스퀘어 네오 OTF ExtraBold';
+}
+
+.box3{
+	width: 33.3%;
+	float: left;
+	font-family: '나눔스퀘어 네오 OTF ExtraBold';
+	text-align: left;
+}
+.box .box3 h1{
+	color: #A24502;
+}
+
+.box .box3 p{
+	color: #595D2B;
+	font-size: 12px;
+}
+.box0 .box3 h1{
+	color: #A24502;
+}
+
+.box0 .box3 p{
+	color: #595D2B;
+	font-size: 12px;
+}
+.box4 .box3 h1{
+	color: #A24502;
+}
+
+.box4 .box3 p{
+	color: #595D2B;
+	font-size: 12px;
+}
+.center{
+	width: 100%;
+	float: center;
+	text-align: center;
+}
+
+.cook{
+	width: 45%;
+	float: center;
+}
+
+.wan{
+	background-color: #FFEFD4;
+	float: right;
+	width: 100%;
+	padding-bottom: 8%;
+	padding-top: 7%;
+
+}
+
+.final{
+	text-align: center;
+	float: left;
+	opacity: 0; 
+    transition: opacity 2s ease;
+}
+.final.visible {
+  opacity: 1; 
+}
+
+
+.final2{
+	width: 25%;
+	float: center;
+}
+
+.main {
+		width: 93%;
+	float: right;
+	}
+
+.back{
+	width: 100%;
+	float: right;
+	top: 0;
+	font-family: "Archivo Black";
+	background-color: #FFEFD4;
+}
+.back a{
+	float: left;
+	padding-left: 12%;
+	padding-top: 2.5%;
+	font-size: 40px;
+	text-decoration: none;
+	color: #A24502;
+	
+}
+.back a:hover{
+	color: #595D2B;
+	cursor: pointer;
+}
+
+
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+@media (max-width: 320px) {
+	.box1{
+	width: 100%;
+	float: right;
+	text-align: center;
+	}
+	
+.box2{
+	width:100%;
+	float: right;
+	padding-top: 10%;
+}
+
+.box3{
+	width: 100%;
+	float: right;
+	text-align: center;
+}
+.text1{
+	padding-top: 0%;
+	padding-left: 10%;
+	padding-right: 10%;
+	}
+
+.main {
+	float: right;
+	width: 80%;
+	}
+
+.secondary_header {
+	
+}
+.secondary_header ul li {
+	float: left;
+	width: 20%;
+	font-size:6px;
+}
+.secondary_header ul {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+	.final2{
+		width: 50%;
+		padding-top: 30%;
+		padding-bottom: 15%;
+	}
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+	
+.box1{
+	width: 100%;
+	float: right;
+	text-align: center;
+	}
+	
+.box2{
+	width:100%;
+	float: right;
+	padding-top: 10%;
+}
+
+.box3{
+	width: 100%;
+	float: right;
+	text-align: center;
+}
+.text1{
+	padding-top: 0%;
+	padding-left: 10%;
+	padding-right: 10%;
+	}
+
+.main {
+	float: right;
+	width: 80%;
+	}
+	
+.secondary_header ul li {
+	float: left;
+	width: 20%;
+	font-size: 10px;
+}
+ .secondary_header ul {;
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+	.final2{
+		width: 50%;
+		padding-top: 30%;
+		padding-bottom: 15%;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+	.box1{
+	width: 100%;
+	float: right;
+	text-align: center;
+	}
+	
+.box2{
+	width:100%;
+	float: right;
+	padding-top: 10%;
+}
+
+.box3{
+	width: 100%;
+	float: right;
+	text-align: center;
+}
+.text1{
+	padding-top: 0%;
+	padding-left: 10%;
+	padding-right: 10%;
+	}
+
+.main {
+	float: right;
+	width: 80%;
+	}
+	.final2{
+		width: 50%;
+		padding-top: 30%;
+		padding-bottom: 15%;
+	}
+	.secondary_header ul li {
+	float: left;
+	width: 20%;
+	font-size: 10px;
+}
+ .secondary_header ul {;
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+}
+
+@media (min-width: 1001px) {
+}
+
+
+#menu {
+
+}
