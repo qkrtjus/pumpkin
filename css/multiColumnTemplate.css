@@ -1,0 +1,851 @@
+@charset "UTF-8";
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#fade{
+	animation: fade-in 2s ease-in-out;
+}
+
+.container {
+	background-color: #FFEFD4;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	float: right;
+	
+}
+.secondary_header {
+	width: 4%;
+	height: 100%;
+	background-color: #FFEFD4;
+	float: left;
+	position: fixed;
+	padding-right: 3%;
+
+}
+
+.secondary_header ul { 
+	
+}
+
+.img{
+	width: 55px;
+	height: 55px;
+	
+}
+.tool0 {
+	margin-top: 100%;
+	margin-bottom: 100%;
+	float: left;
+	width: 100%;
+}
+.tool {
+	
+}
+.tool2 {
+
+}
+.tool3 {
+	
+}
+.tool0 a  {
+	float: center;
+	width: 100%;
+}
+
+.secondary_header .tool0 a {
+	writing-mode: vertical-rl; 
+	float: center;
+	width: 100%;
+	margin-left:100%;
+}
+
+.secondary_header .tool a {
+	text-decoration: none;
+	margin-right: auto;
+	font-family: "Archivo Black";
+	font-weight: bold;
+	font-size: 14px;
+	color: #CD8A39;
+	letter-spacing: 1px;
+	text-align: center; 
+	writing-mode: vertical-rl; 
+	float: center;
+	margin-top: 630%;
+	width: 100%;
+	height:20%;
+}
+.secondary_header .tool2 a {
+	text-decoration: none;
+	margin-right: auto;
+	font-family: "Archivo Black";
+	font-weight: bold;
+	font-size: 14px;
+	color: #CD8A39;
+	letter-spacing: 1px;
+	text-align: center; 
+	writing-mode: vertical-rl; 
+	float: center;
+	width: 100%;
+	height:20%;
+}
+.secondary_header .tool3 a {
+	text-decoration: none;
+	margin-right: auto;
+	font-family: "Archivo Black";
+	font-weight: bold;
+	font-size: 14px;
+	color: #CD8A39;
+	letter-spacing: 1px;
+	text-align: center; 
+	writing-mode: vertical-rl; 
+	float: center;
+	width: 100%;
+	height:20%;
+}
+
+
+.secondary_header .tool a:hover {
+	color: #A24502;
+	cursor: pointer;
+	
+}
+.secondary_header .tool2 a:hover {
+	color: #A24502;
+	cursor: pointer;
+	
+}
+.secondary_header .tool3 a:hover {
+	color: #A24502;
+	cursor: pointer;
+	
+}
+.section{
+	padding-top: 1%;
+	padding-bottom: 25%;
+	background-color: #FFEFD4;
+}
+.row {
+	width: 97%;
+	display: inline-block;
+	background-color: #FFEFD4;
+	float: right;
+	opacity: 0; 
+  transition: opacity 2s ease;
+}
+.row.visible {
+  opacity: 1; 
+}
+.row.blockDisplay {
+	display: block;
+}
+.column_half {
+	width: 50%;
+	float: left;
+	margin-top: 0px;
+}
+.columns {
+	width: 33%;
+	float: left;
+	font-family: '나눔스퀘어 네오 OTF ExtraBold';
+	color: #A5A5A5;
+	line-height: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.row .columns p {
+	padding-left: 30%;
+	padding-right: 30%;
+	font-size: 11px;
+	font-weight: bold;
+	color: #595D2B;
+	text-align: center;
+
+}
+.container .columns h4 {
+	text-align: center;
+	color: #CD8A39;
+	font-size: 15px;
+	margin-top: 12%;
+	margin-bottom: 6%;
+}
+
+.primary_header {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: left;
+}
+
+.big_box{
+	width: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	float: left;
+}
+
+.social_icon {
+	font-family: "나눔스퀘어 네오 OTF ExtraBold";
+	text-align: center;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	width: 50%;
+	float: left;
+	
+}
+
+.third{
+	float: right;
+	width: 93%;
+	padding-top: 2%;
+	padding-bottom: 10%;
+	background-color: #FFEFD4;opacity: 0; 
+  transition: opacity 4s ease;
+}
+.third.visible {
+  opacity: 1; 
+}
+
+.third .big_box .social_icon p {
+	padding-left: 0px;
+	padding-right: 2%;
+	text-align: center;
+	font-size: 12px;
+	color: #595D2B;
+	width: 70%;
+	float: left;
+}
+
+.third .big_box .social_icon h3 {
+	padding-left: 0px;
+	padding-right: 2%;
+	text-align: center;
+	color: #CD8A39;
+	width: 70%;
+	float: left;
+}
+
+.third .big_box .social_icon h3:hover {
+	color: #595D2B;
+	cursor: pointer;
+}
+
+.left_article {
+	width: 100%;
+	float: center;
+	font-family: "Source Sans Pro";
+	color: #343434;
+	
+}
+.noDisplay {
+	display: none;
+	float: left;
+}
+.container .left_article h3 {
+	padding: 0%;
+	margin: 0%;
+	text-align: center;
+}
+.pum{
+	width: 55%;
+}
+
+.container .left_article p {
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: justify;
+	line-height: 24px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #B3B3B3;
+}
+.right_article {
+	width: 100%;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+.second{
+	background-color: #FFEFD4;
+}
+.how{
+	width: 97%;
+	float: right;
+	background-color: #FFEFD4;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	opacity: 0; 
+  transition: opacity 2s ease;
+}
+.how.visible {
+  opacity: 1; 
+}
+.container .how h5{
+	padding: 0%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	color: #FFEFD4;
+	background-color: #CD8A39;
+	font-weight: bold;
+	font-family: 'Archivo Black';
+	font-size:  xx-large;
+	text-transform: uppercase;
+	text-align: center;
+}
+.container .right_article ul {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.right_article ul li {
+	font-family: 'Archivo Black';
+	list-style: none;
+	text-align: center;
+	background-color: #B3B3B3;
+	width: 45%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 0px;
+	transition: all 0.3s linear;
+	border-left: 5px solid #717070;
+}
+
+.footer {
+	background-color: #A24502;
+	height: auto;
+	width: 93%;
+	padding-bottom:2%;
+	padding-top: 2%;
+	float: right;
+	opacity: 0; 
+  transition: opacity 2s ease;
+}
+.footer.visible {
+  opacity: 1; 
+}
+
+.t1{
+	background-color: #FFEFD4;
+	width: 100%;
+	float: right;
+}
+.m_title{
+	width: 100%;
+	float: center;
+	font-family: 'OPTI Didot CBS Special';
+	padding-top: 3%;
+	padding-bottom: 6%;
+	opacity: 0; 
+  transition: opacity 2s ease;
+}
+.m_title.visible {
+  opacity: 1; 
+}
+.m_title h6{
+	font-family: 'Archivo Black';
+	text-align: center;
+}
+
+.title {
+	font-weight: bold;
+	font-style: normal;
+	font-family:'Archivo Black';
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+	
+}
+.placeholder {
+	width: 40%;
+	height:55%;
+	position: absolute;
+	top: 33%;
+	padding-left: 27%;
+}
+.final{
+	margin-top: 5%;
+	float: center;
+	
+}
+.left_half {
+	background-color: #52BAD5;
+}
+
+.column_title {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.copyright {
+	text-align: center;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	font-family: "Source Sans Pro";
+	width: 50%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	float: left;
+}
+
+.copyright h4{
+	font-family: 'Archivo Black';
+	
+}
+.final_img{
+	width: 20%;
+	padding-left: 5%;
+}
+.thumbnail_align {
+	text-align: center;
+	float: center;
+}
+.thumbnail {
+	width: 100%;
+	float: center;
+}
+
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-color: #FFEFD4;
+}
+
+
+@media (max-width: 320px) {
+	.container{
+		width: 75%;
+	}
+	.third{
+		width: 75%;
+	}
+	.footer{
+		width: 75%;
+	}
+	.final_img {
+		float: center;
+		padding-right: 5%;
+	}
+	.section{
+		padding-bottom: 40%;
+		padding-top: 10%;
+	}
+	
+.social_icon{
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	}
+	
+.third .big_box .social_icon p {
+	float: center;
+	font-size: 10px;
+	text-align: center;
+	font-weight: lighter;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 90%;
+}
+	
+.third .big_box .social_icon h3 {
+	text-align: center;
+	color: #CD8A39;
+	padding-left: 5%;
+	width: 90%;
+}
+.copyright {
+	text-align: center;
+	font-weight: lighter;
+	letter-spacing: 4px;
+	font-family: "Source Sans Pro";
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	float: left;
+	opacity: 0; 
+  transition: opacity 2s ease;
+}
+.copyright.visible {
+  opacity: 1; 
+}
+
+.footer .copyright p{
+	text-align: center;
+	font-weight: lighter;
+	color: #FFEFD4;
+	font-family: "나눔스퀘어 네오 OTF Regular";
+	font-size: 10px;
+	float: center;
+	width: 80%;
+	padding-left: 15%;
+	
+}
+
+.footer .copyright h4{
+	padding-top: 4%;
+	padding-bottom: 0%;
+	text-align: center;
+	color: #CD8A39 ;
+	float: center;
+	font-family: "OPTI Didot CBS Special";
+	padding-left: 30%
+}
+
+
+.left_article {
+	width: 100%;
+	height: auto;
+}
+.right_article {
+	width: 100%;
+	height: auto;
+	float: center;
+}
+.placeholder {
+	width: 40%;
+	height: auto;
+	margin-top: 1%;
+	margin-right: 0px;
+	margin-bottom: 0PX;
+	margin-left: 0px;
+	padding-top: 0%;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 17%;
+	position: absolute;
+	top: 25%;
+	float: center;
+}
+	
+.columns {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0PX;
+	padding-right: 0PX;
+	padding-bottom: 0PX;
+	padding-left: 0PX;opacity: 0; 
+  transition: opacity 2s ease;
+}
+.columns.visible {
+  opacity: 1; 
+}
+.columns p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.column_half.left_half {
+	width: 100%;
+}
+.column_half.right_half {
+	width: 100%;
+}
+
+.container .left_article h3 {
+	margin-top: 30px;
+}
+.social .social_icon img {
+	width: 80%;
+}
+
+.row .columns p {
+	font-size: 11px;
+	font-weight: bold;
+	color: #595D2B;
+	text-align: center;
+	padding: 0px;
+
+}
+ .secondary_header {
+	
+}
+.secondary_header ul li {
+	float: left;
+	width: 20%;
+	font-size:6px;
+}
+.secondary_header ul {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+
+	.section{
+		padding-top: 12%;
+	}
+.secondary_header ul li {
+	float: left;
+	width: 20%;
+	font-size: 10px;
+}
+.secondary_header ul {;
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+	.thumbnail_align{
+		width:100%;
+	}
+	.thumbnail{
+		width: 50%;
+	}
+	.thumbnail2{
+		width: 100%;
+	}
+ .final_img {
+		float: center;
+		padding-right: 5%;
+	}
+	.section{
+		padding-bottom: 30%;
+	}
+
+.social_icon{
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	}
+	
+.third .big_box .social_icon p {
+	text-align: center;
+	font-weight: lighter;
+	padding-left: 15%;
+	float: center;
+	font-size: 11px;
+}
+	
+.third .big_box .social_icon h3 {
+	text-align: center;
+	padding-left: 15%;
+	color: #CD8A39;
+	float: center;
+}
+
+
+.copyright {
+	text-align: center;
+	font-weight: lighter;
+	letter-spacing: 4px;
+	font-family: "Source Sans Pro";
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	float: left;
+}
+.footer .copyright p{
+	text-align: center;
+	font-weight: lighter;
+	color: #FFEFD4;
+	font-family: "나눔스퀘어 네오 OTF Regular";
+	font-size: 10px;
+	float: center;
+	width: 80%;
+	padding-left: 15%;
+	
+}
+
+.footer .copyright h4{
+	padding-top: 4%;
+	padding-bottom: 0%;
+	text-align: center;
+	color: #CD8A39 ;
+	float: center;
+	font-family: "OPTI Didot CBS Special";
+	padding-left: 30%
+}
+	
+.left_article {
+	width: 100%;
+	height: auto;
+}
+.right_article {
+	width: 100%;
+	height: auto;
+	padding-bottom: 25px;
+}
+.placeholder {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 18%;
+	padding-right: 0px;
+	padding-left: 0px;
+	width: 45%;
+	max-width: 50%;
+	height: auto;
+	max-height: 100%;
+	top: 12%;
+}
+.columns {
+	width: 95%;
+	margin-top: 6px;
+	margin-bottom: 6px;
+
+}
+.columns p {
+	text-align: center;
+}
+.column_half.left_half {
+	width: 100%;
+}
+.column_half.right_half {
+	width: 100%;
+}
+.row .columns p {
+	text-align: center;
+	padding: 0px;
+}
+	.container{
+		width: 80%;
+	}
+	.third{
+		width: 78%;
+	}
+	.footer{
+		width: 80%;
+	}
+	
+	
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+	.secondary_header ul li {
+	float: left;
+	width: 20%;
+	font-size: 10px;
+}
+.secondary_header ul {;
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+.container{
+		width: 87%;
+	}
+	.third{
+		width: 85%;
+	}
+	.footer{
+		width: 85%;
+	}
+	
+.left_article {
+	height: auto;
+}
+.right_article {
+	height: auto;
+	padding-bottom: 27px;
+}
+.placeholder {
+	width: 40%;
+	height: 20%;
+	top: 17%;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 23%;;
+	padding-right: 0px;
+}
+
+.container .columns p {
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	
+}
+	.section{
+		padding-top: 10%;
+	}	
+}
+
+@media (min-width: 1001px) {
+}
+
+.third .m_title h6{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-bottom: 2%;
+	color: #FFEFD4;
+	background-color: #595D2B;
+	font-weight: bold;
+	font-size:  xx-large;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+.thumbnail2 {
+	width: 20%;
+	float: center;
+}
+
+.social {
+	text-align: center;
+	width: 100%;
+	background-color: #414141;
+	clear: both;
+	overflow: auto;
+}
+
+.container .social .social_icon:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+.footer .copyright p{
+	padding-right: 5%;
+	text-align: center;
+	font-weight: lighter;
+	color: #FFEFD4;
+	font-family: "나눔스퀘어 네오 OTF Regular";
+	font-size: 10px;
+	float: center;
+	width: 70%;
+	
+}
+
+.footer .copyright h4{
+	padding-right: 30%;
+	padding-top: 4%;
+	padding-bottom: 0%;
+	text-align: center;
+	color: #CD8A39 ;
+	float: center;
+	font-family: 'Archivo Black';
+	
+}
+
+#menu {
+}
